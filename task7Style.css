@@ -1,0 +1,53 @@
+.horizontal-navigation-bar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:lightgray;
+}
+  
+.horizontal-navigation-bar li{
+    float: left;
+}
+  
+.horizontal-navigation-bar li a {
+    display: inline-block;
+    color: blue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+.horizontal-navigation-bar li a:hover{
+    background-color:gray;
+}
+.horizontal-navigation-bar .active {
+    background-color: gray;
+    color: lightgray;
+}
+
+.vertical-navigation-bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: lightblue;
+  }
+  
+  .vertical-navigation-bar li a {
+    display: block;
+    color: blue;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color on hover */
+  .vertical-navigation-bar li a:hover {
+    background-color: orange;
+    color: white;
+  }
+
+  .vertical-navigation-bar .active {
+    background-color: orange;
+    color: white;
+}

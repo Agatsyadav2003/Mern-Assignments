@@ -1,0 +1,21 @@
+table{
+    width: 100%;   
+    font-size: 16px;
+    margin-top: 21%;   
+}
+table, th, td {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color:aquamarine;
+}
+
+th, td {
+    padding: 8px;
+}
+th {
+    font-weight: 600;
+
+} 
+td {
+    text-align: left;
+}  
